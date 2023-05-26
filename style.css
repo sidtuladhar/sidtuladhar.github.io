@@ -1,27 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 html {
-
     font-size:2rem;
-
+    font-family: 'Special Elite', cursive;
 }
 
 h1 {
     text-align: center;
     letter-spacing: 0.4rem;
-    font-family: 'Special Elite', cursive;
     color: darkslategrey;
     line-height: 2rem;
+    position: relative;
 }
-
 
 body {
     text-align: center;
     background-color:#3b3b3b;
     color:aliceblue;
-    font-family: "papyrus", fantasy;
     letter-spacing: 0.1rem;
+}
 
+.profile {
+    text-align: center;
+    color: darkslategrey;
+    line-height: 2rem;
 }
 
 .default {
@@ -29,7 +31,13 @@ body {
 }
 
 .note {
-    text-align: -moz-left;
+    text-align: left;
     text-decoration: none;
     color: aliceblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.outer {
 }

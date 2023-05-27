@@ -1,43 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
 
 html {
     font-size:2rem;
     font-family: 'Special Elite', cursive;
+
 }
 
 h1 {
     text-align: center;
-    letter-spacing: 0.4rem;
-    color: darkslategrey;
+    letter-spacing: 0.3rem;
+    color: #efd3d3;
     line-height: 2rem;
     position: relative;
+
 }
 
 body {
     text-align: center;
-    background-color:#3b3b3b;
-    color:aliceblue;
     letter-spacing: 0.1rem;
+    background: darkslategrey;
 }
 
 .profile {
     text-align: center;
-    color: darkslategrey;
-    line-height: 2rem;
+    padding-top: 3rem;
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
 }
 
+.first-name:hover {
+    transform: rotateY(360deg);
+    transition: 1s;
+    transition-property: c;
+}
+
+.icon:hover {
+    transform: rotateY(360deg);
+    transition: 1s;
+}
+
+.icon {
+    width: 8%;
+    height: 8%;
+
+}
 .default {
     text-decoration: none;
 }
 
-.note {
-    text-align: left;
-    text-decoration: none;
-    color: aliceblue;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.outer {
-}

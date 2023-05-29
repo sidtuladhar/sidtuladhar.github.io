@@ -3,49 +3,62 @@
 html {
     font-size:2rem;
     font-family: 'Special Elite', cursive;
+}
 
+#dynamic-gradient {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background: linear-gradient(sandybrown, darkgrey);
 }
 
 h1 {
     text-align: center;
     letter-spacing: 0.3rem;
-    color: #efd3d3;
     line-height: 2rem;
     position: relative;
-
 }
 
 body {
     text-align: center;
     letter-spacing: 0.1rem;
-    background: darkslategrey;
+    background: #ad7373;
+}
+
+.profile-container {
+    width: 20%;
+    padding-top: 20%;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
 
 .profile {
-    text-align: center;
-    padding-top: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 50%;
-    width: 20%;
-    height: 20%;
-}
-
-.first-name:hover {
-    transform: rotateY(360deg);
-    transition: 1s;
-    transition-property: c;
 }
 
 .icon:hover {
-    transform: rotateY(360deg);
-    transition: 1s;
+    transform: rotateY(180deg);
 }
 
 .icon {
     width: 8%;
     height: 8%;
-
+    transition: 1s;
+    z-index: 2;
+    transform-origin: center center;
 }
+
 .default {
     text-decoration: none;
 }
-

@@ -1,2 +1,2 @@
 # sidtuladhar.github.io
-My website
+A basic website using HTML, CSS, and Javascript
